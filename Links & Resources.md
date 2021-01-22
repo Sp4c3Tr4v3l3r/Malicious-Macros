@@ -6,3 +6,4 @@
 - [Developing VBA](https://www.trustedsec.com/blog/developing-with-vba-for-script-kiddies/)
 - [Malicious Macros](https://www.trustedsec.com/blog/malicious-macros-for-script-kiddies/)
 - [Offensive Maldocs in 2020](https://www.youtube.com/watch?v=RW5U9yxilf4)
+- [Maldocs: Tips for Red Teamers](https://www.youtube.com/watch?v=zYWyPZDndVg)
