@@ -16,3 +16,4 @@
 	- Change the very hidden value, and a value of the unused 6 bits. Now you don't have the Protected View
 	- oledump -p pluggin_biff --pluginoptions "-o BOUNDSHEET -a" example-03.xls
 	
+- This way you can avoid YARA Rules
