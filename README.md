@@ -96,7 +96,14 @@ RetVal = Shell("C:\WINDOWS\CALC.EXE", 0)  ' Start a hidden Calculator
 - FileSystemObject – The FileSystemObject provides access to the computer’s filesystem.
 	- It contains properties, including Drives, Name, Path, Size, and Type. It also has numerous methods, including CopyFile, CopyFolder, CreateFolder, CreateTextFile, DeleteFile, DeleteFolder, FileExists, FolderExists, GetAbsolutePathName, GetFileName, MoveFile, and WriteLine.
 
-
+```
+Sub CreateAfile
+    Set fs = CreateObject("Scripting.FileSystemObject")
+    Set test = fs.CreateTextFile("c:\testfile.txt", True)
+    test.WriteLine("This is a test.")
+    test.Close
+End Sub
+```
 
 ## Malicious Macros
 
