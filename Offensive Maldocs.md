@@ -7,7 +7,7 @@
 
 	- Background
 		- [Old School: Evil Excel 4.0 Macros](https://outflank.nl/blog/2018/10/06/old-school-evil-excel-4-0-macros-xlm/)
-		- [Excel4-DCOM](https://github.com/outflanknl/Excel4-DCOM]
+		- [Excel4-DCOM](https://github.com/outflanknl/Excel4-DCOM)
 		- [Process Injection with SYLK](https://outflank.nl/blog/2019/10/30/abusing-the-sylk-file-format/)
 		- [SharpShooter](https://github.com/mdsecactivebreach/SharpShooter)
 		- [Cybereason 64-Bit Shellcode Execution via Excel 4.0](https://www.cybereason.com/blog/excel4.0-macros-now-with-twice-the-bits)
@@ -29,13 +29,12 @@
 			-Take a dotnet assembly and convert that into independent shellcode.
 		- [Further Evasion in the Forgotten Corners of MS-XLS](https://malware.pizza/2020/06/19/further-evasion-in-the-forgotten-corners-of-ms-xls/)
 		- [Evading Detection with Excel 4.0 Macros and the BIFF8 XLS Format](https://malware.pizza/2020/05/12/evading-av-with-excel-macros-and-biff8-xls/)
-
-- A/V Evasion
-	- Char Functions
-	- Hide Macro Sheet
 	
 - [Epic Manchego](https://blog.nviso.eu/2020/09/01/epic-manchego-atypical-maldoc-delivery-brings-flurry-of-infostealers/)
+	- atypical maldoc delivery brings flurry of infostealers
 
 - [Hot Manchego](https://github.com/FortyNorthSecurity/hot-manchego)
+	- Hot Manchego uses the EPPlus Library to create a Macro-Enabled Excel File. 
 
-- [Hover With Power](https://github.com/ethanhunnt/Hover_with_Power)
+- [Hover With Power](https://github.com/ethanhunnt/Hover_with_Power)	
+	- Powerpoint exploit 
