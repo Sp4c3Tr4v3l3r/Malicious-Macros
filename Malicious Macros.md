@@ -158,8 +158,7 @@ Sub DownloadFile()
 End Sub
 ```
 
-- COM object: XMLHTTP. XMLHTTP is part of Microsoft’s suite of XML DOM components.
-- The ADODB stream object is used to represent a stream of data or text.
+- COM object: XMLHTTP. XMLHTTP is part of Microsoft’s suite of XML DOM components. The ADODB stream object is used to represent a stream of data or text.
 
 ```
 Sub DownloadFile()
@@ -206,6 +205,19 @@ End Sub
 ```
 
 ## Macro 4.0 (XLM Macros)
+
+- No. This is not VBA.
+- No. This is not XML.
+- XLM (Excel 4.0) Macros were created in 1992, before VBA existed.
+
+- Background
+	1. (Old School: Evil Excel 4.0 Macros)[https://outflank.nl/blog/2018/10/06/old-school-evil-excel-4-0-macros-xlm/]
+	2. (Excel4-DCOM)[https://github.com/outflanknl/Excel4-DCOM]
+	3. (Process Injection with SYLK)[https://outflank.nl/blog/2019/10/30/abusing-the-sylk-file-format/]
+	4. (SharpShooter)[https://github.com/mdsecactivebreach/SharpShooter]
+	5. (Cybereason 64-Bit Shellcode Execution via Excel 4.0)[https://www.cybereason.com/blog/excel4.0-macros-now-with-twice-the-bits]
+	6. (Macrome)[https://github.com/michaelweber/Macrome]
+	7. (EXCELntDonut)[https://github.com/FortyNorthSecurity/EXCELntDonut]
 
 ## Very Hidden Sheets
 
