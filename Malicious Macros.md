@@ -211,13 +211,23 @@ End Sub
 - XLM (Excel 4.0) Macros were created in 1992, before VBA existed.
 
 - Background
-	1. (Old School: Evil Excel 4.0 Macros)[https://outflank.nl/blog/2018/10/06/old-school-evil-excel-4-0-macros-xlm/]
-	2. (Excel4-DCOM)[https://github.com/outflanknl/Excel4-DCOM]
-	3. (Process Injection with SYLK)[https://outflank.nl/blog/2019/10/30/abusing-the-sylk-file-format/]
-	4. (SharpShooter)[https://github.com/mdsecactivebreach/SharpShooter]
-	5. (Cybereason 64-Bit Shellcode Execution via Excel 4.0)[https://www.cybereason.com/blog/excel4.0-macros-now-with-twice-the-bits]
-	6. (Macrome)[https://github.com/michaelweber/Macrome]
-	7. (EXCELntDonut)[https://github.com/FortyNorthSecurity/EXCELntDonut]
+	- [(Old School: Evil Excel 4.0 Macros)[https://outflank.nl/blog/2018/10/06/old-school-evil-excel-4-0-macros-xlm/]
+	- [(Excel4-DCOM)[https://github.com/outflanknl/Excel4-DCOM]
+	- [(Process Injection with SYLK)[https://outflank.nl/blog/2019/10/30/abusing-the-sylk-file-format/]
+	- [(SharpShooter)[https://github.com/mdsecactivebreach/SharpShooter]
+	- [(Cybereason 64-Bit Shellcode Execution via Excel 4.0)[https://www.cybereason.com/blog/excel4.0-macros-now-with-twice-the-bits]
+	- [(Macrome)[https://github.com/michaelweber/Macrome]
+	- [(EXCELntDonut)[https://github.com/FortyNorthSecurity/EXCELntDonut]
+
+- Why is this so great?
+	- AMSI has no vibility into XML macros.
+	- A/V still not great at detecting malicious XLM macros.
+	- Payloads can be delivered in .xls files.
+	- Process injection is possible.
+	
+- Examples
+	- [Living of the land](https://inquest.net/blog/2019/01/29/Carving-Sneaky-XLM-Files)
+	- [XLM Macros 101](https://hatching.io/blog/excel-xlm-extraction/)
 
 ## Very Hidden Sheets
 
