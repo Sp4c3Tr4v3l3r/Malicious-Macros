@@ -229,6 +229,11 @@ End Sub
 	- [Living of the land](https://inquest.net/blog/2019/01/29/Carving-Sneaky-XLM-Files)
 	- [XLM Macros 101](https://hatching.io/blog/excel-xlm-extraction/)
 
+- (Donut)[https://github.com/TheWover/donut]
+	-Take a dotnet assembly and convert that into independent shellcode.
+
+
+
 ## Very Hidden Sheets
 
 ## VBA Stomping
