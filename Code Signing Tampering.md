@@ -21,7 +21,6 @@
 	- oledump -s a3 -v example-08.docm
 	- pcodedmp.exe example-08.docm | tail
 	
-		
 - [Contents Hashes](https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/73422f49-565e-47a3-baf4-5742e2ba7dad)
 
 
