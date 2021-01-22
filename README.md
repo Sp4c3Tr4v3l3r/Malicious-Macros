@@ -90,6 +90,14 @@ RetVal = Shell("C:\WINDOWS\CALC.EXE", 0)  ' Start a hidden Calculator
 
 - MsgBox (prompt, [ buttons, ] [ title, ] [ helpfile, context ]) – This function displays a message dialog box to the user and waits for the user to press a button. 
 
+- File – The file object represents a file on disk and its properties contain information about that file.
+	- Some of the key properties include: Attributes, DateCreated, DateLastAccessed, DateLastModified, Drive, Name, ParentFolder, Path, ShortName, ShortPath, Size, and Type. In addition to these properties, the File object has a few key methods: Copy, Delete, Move, and OpenAsTextStream.
+
+- FileSystemObject – The FileSystemObject provides access to the computer’s filesystem.
+	- It contains properties, including Drives, Name, Path, Size, and Type. It also has numerous methods, including CopyFile, CopyFolder, CreateFolder, CreateTextFile, DeleteFile, DeleteFolder, FileExists, FolderExists, GetAbsolutePathName, GetFileName, MoveFile, and WriteLine.
+
+
+
 ## Malicious Macros
 
 ## Macro 4.0 (XLM Macros)
